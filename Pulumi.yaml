@@ -1,0 +1,6 @@
+name: movie_recommendation
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal local Docker Python Pulumi program
