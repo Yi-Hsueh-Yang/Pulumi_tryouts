@@ -18,6 +18,7 @@ While Terraform has long been the go-to IaC tool for many developers, Pulumi int
 - Programming Language Flexibility: Terraform uses a custom domain-specific language (DSL) called HCL (HashiCorp Configuration Language), which, while powerful, requires users to learn a new syntax and has limitations in terms of logic and conditionals. Pulumi, on the other hand, allows the use of general-purpose programming languages, offering greater flexibility, the ability to use existing libraries, and the power to apply familiar patterns and practices.
 - State Management: Both Pulumi and Terraform manage infrastructure state, but Pulumi's approach to state management is more integrated with the developer's workflow, supporting a wider range of backend options for state storage and offering more robust collaboration features.
 - Ecosystem and Community: Terraform benefits from a large ecosystem and community, with a vast library of providers and modules. Pulumi is rapidly growing its ecosystem, focusing on deep integration with cloud-native technologies, container orchestration systems like Kubernetes, and now, machine learning workflows.
+- Unified Application and Infrastructure Management: Enabling developers to manage both application code and infrastructure in a single environment and version control system.
 
 ## From Automation to AI: Pulumi in ML Deployment
 The deployment of ML models involves intricate infrastructure requirements, from scalable compute and GPU resources to complex data pipelines and storage solutions. Pulumi's ability to use existing programming languages simplifies the automation of these requirements, making infrastructure setup more transparent and integrated with ML workflows.
@@ -43,6 +44,10 @@ In this demonstration, Pulumi is used for orchestrating Docker containers that e
 - State Management: Pulumi automates the provisioning and management of resources in a desired state configuration, ensuring that the deployed infrastructure matches the defined code.
 - Docker Integration: Through Pulumi’s Docker provider, Docker images are built and containers are run based on the configurations specified in the Python code. This includes setting up the environment for the recommendation model, handling dependencies, and executing the training script.
 
+### Step-by-step
+1. fdfd
+2. dfd
+
 ### Docker
 Docker is used for containerizing the application components, ensuring consistency across different environments and simplifying deployment processes. The Docker integration with Pulumi allows for the definition, building, and running of Docker containers directly through Pulumi scripts.
 
@@ -53,12 +58,12 @@ Docker is used for containerizing the application components, ensuring consisten
 #### Importance of Pulumi in the Project
 Pulumi plays a crucial role in the project by enabling infrastructure management using the same programming language as the application code, thereby streamlining the development process. Its integration with Docker simplifies the steps needed to build and run containers, directly linking these operations with the infrastructure configuration.
 
-## Comparison with Other Infrastructure as Code Tools
+<!--## Comparison with Other Infrastructure as Code Tools
 While traditional IaC tools like Terraform and AWS CloudFormation focus on declarative configurations, Pulumi distinguishes itself by:
 
 - Programming Language Support: Offering full support for general-purpose programming languages, providing greater flexibility and the ability to use existing language features, libraries, and tools.
 - Real Programming Constructs: Allowing for the use of loops, conditionals, functions, and classes in defining infrastructure, which can lead to more dynamic and reusable code.
-- Unified Application and Infrastructure Management: Enabling developers to manage both application code and infrastructure in a single environment and version control system.
+- Unified Application and Infrastructure Management: Enabling developers to manage both application code and infrastructure in a single environment and version control system.-->
 
 ## Pulumi's Role in This Project
 In this movie recommendation system project, Pulumi is responsible for:
