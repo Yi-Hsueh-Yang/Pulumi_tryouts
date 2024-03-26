@@ -48,10 +48,9 @@ In this demonstration, Pulumi is used for orchestrating Docker containers that e
 1. fdfd
 2. dfd
 
-### Docker
+### Docker and Docker-Related Configurations:
 Docker is used for containerizing the application components, ensuring consistency across different environments and simplifying deployment processes. The Docker integration with Pulumi allows for the definition, building, and running of Docker containers directly through Pulumi scripts.
 
-#### Docker-Related Configurations:
 - Dockerfile: Defines the environment for running the movie recommendation system, including the base image, dependencies, and commands to run the application.
 - Pulumi Docker Provider: Manages Docker resources such as images and containers, allowing for their definition within the same codebase as the application logic.
 
